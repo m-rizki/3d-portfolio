@@ -1,4 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 3D Portofolio (Javascript)
+
+This is an open source my personal 3D portofolio. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## First installation note
+
+- What is your project named? ... project-name
+- Would you like to use TypeScript? ... No
+- Would you like to use ESLint? ... No
+- Would you like to use Tailwind CSS? ... Yes
+- Would you like to use `src/` directory? ... No
+- Would you like to use App Router? (recommended) ... Yes
+- Would you like to customize the default import alias? ... Yes
+- What import alias would you like configured? ... @/\* (press enter)
+
+Creating a new Next.js app in \project-name.
 
 ## Getting Started
 
