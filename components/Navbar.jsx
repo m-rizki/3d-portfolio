@@ -2,7 +2,6 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { styles } from '@/styles/styles'
 import { navLinks } from '@/constants'
 import { logo, menu, close } from '@/public/assets/images'
 import Image from 'next/image'
@@ -13,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`padding-custom-x w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       <div className='w-full flex justify-between item-center max-w-7xl mx-auto'>
         <Link
@@ -25,7 +24,7 @@ const Navbar = () => {
           }}
         >
           <Image src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-semibold cursor-pointer sm:block hidden'>
+          <p className='text-white text-[18px] font-semibold cursor-pointer md:block hidden'>
             Muhamad Rizki &nbsp; | &nbsp; Developer
           </p>
         </Link>
@@ -37,7 +36,7 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? 'text-white' : 'text-secondary'
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[18px] font-medium cursor-pointer my-auto`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
