@@ -5,7 +5,7 @@
 
 ## checkpoint
 
-[6:44:54](https://youtu.be/tllZWCQZ9_0?t=24294)
+[6:50:04](https://youtu.be/tllZWCQZ9_0?t=24294)
 
 ## Steps
 
@@ -20,4 +20,4 @@
    - `@emailjs/browser`
    - `framer-motion`
    - `react-router-dom` -> since we're using Next.Js, we don't need to install this
-3. next -> setup starting project -> public (3d-models & images), layout & page, components, constant, styles, utils, tailwind.config.js
+3. next -> setup starting assets & file -> public (3d-models & images), layout & page, components, constant, styles, utils, tailwind.config.js
