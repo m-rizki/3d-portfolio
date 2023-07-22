@@ -2,6 +2,7 @@
 
 1. [Build and Deploy 4 Modern React Apps and Get Hired as a Web Developer | Full 10-Hour Course | 6:32:14](https://youtu.be/tllZWCQZ9_0?t=23534)
 2. [project_3D_developer_portfolio](https://github.com/adrianhajdin/project_3D_developer_portfolio)
+3. [Free Logo Maker](https://logo.com/)
 
 ## checkpoint
 
