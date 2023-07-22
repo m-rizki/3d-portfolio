@@ -1,6 +1,6 @@
-# 3D Portofolio (Javascript)
+# 3D Portfolio (Javascript)
 
-This is an open source my personal 3D portofolio. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is an open source my personal 3D portfolio. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## First installation note
 
