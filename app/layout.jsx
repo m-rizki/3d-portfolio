@@ -1,13 +1,16 @@
 import '../styles/globals.css'
 
 export const metadata = {
-  title: 'Rizki | Home',
-  description: 'Muhamad Rizki 3D portfolio website',
+  title: {
+    default: 'Muhamad Rizki',
+    template: '%s | Muhamad Rizki',
+  },
+  description: 'Muhamad Rizki portfolio',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>{children}</body>
     </html>
   )
