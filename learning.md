@@ -10,7 +10,7 @@
 
 ## checkpoint
 
-[8:06:08](https://youtu.be/tllZWCQZ9_0?t=24294)
+[8:16:40](https://youtu.be/tllZWCQZ9_0?t=24294)
 
 ## Steps
 
@@ -32,4 +32,6 @@
 5. Hero Section
    - additional packages: `npm install three @types/three`
 6. About Section
-7. Experience Section. <!-- 7. FIXME: Warning: Extra attributes from the server: style at html app-index.js:31-->
+7. Experience Section. <!-- FIXME: Warning: Extra attributes from the server: style at html app-index.js:31-->
+8. Tech Section
+9. Next: Works Section
