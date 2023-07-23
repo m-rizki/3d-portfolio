@@ -10,7 +10,7 @@
 
 ## checkpoint
 
-[7:48:40](https://youtu.be/tllZWCQZ9_0?t=24294)
+[7:55:33](https://youtu.be/tllZWCQZ9_0?t=24294)
 
 ## Steps
 
@@ -32,3 +32,4 @@
 5. Hero Section
    - additional packages: `npm install three @types/three`
 6. About Section
+7. Next: Experience Section

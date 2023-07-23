@@ -1,6 +1,7 @@
 'use client'
 
 import { services } from '@/constants'
+import { SectionWrapper } from '@/hoc'
 import { fadeIn, textVariant } from '@/utils/motion'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
@@ -18,7 +19,10 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{ max: 45, scale: 1, speed: 450 }}
           className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         >
-          <Image src={icon} alt={title} className='w-16 h-16 object-contain'/>
+          <Image src={icon} alt={title} className='w-16 h-16 object-contain' />
+          <h3 className='text-white text-[20px] font-bold text-center'>
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
@@ -28,7 +32,7 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()} id='about'>
+      <motion.div variants={textVariant()}>
         <p className='section-sub-text'>Introduction</p>
         <h2 className='section-head-text'>Overview.</h2>
       </motion.div>
@@ -53,4 +57,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, 'about')
