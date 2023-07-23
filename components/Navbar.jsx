@@ -24,7 +24,7 @@ const Navbar = () => {
           }}
         >
           <Image src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-semibold cursor-pointer md:block hidden'>
+          <p className='text-white text-[18px] font-bold cursor-pointer md:block hidden'>
             Muhamad Rizki &nbsp; <span className='lg:inline hidden'>| &nbsp; Software Engineer</span>
           </p>
         </Link>
