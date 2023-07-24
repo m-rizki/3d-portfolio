@@ -10,7 +10,7 @@
 
 ## checkpoint
 
-[8:16:40](https://youtu.be/tllZWCQZ9_0?t=24294)
+[8:33:49](https://youtu.be/tllZWCQZ9_0?t=24294)
 
 ## Steps
 
@@ -29,9 +29,10 @@
    - `react-router-dom` -> since we're using Next.Js, we don't need to install this
 3. next -> setup starting assets & file -> public (3d-models & images), layout & page, components, constant, styles, utils, tailwind.config.js
 4. Logo & Navigation (Mobile & Desktop)
-5. Hero Section
+5. Hero section
    - additional packages: `npm install three @types/three`
-6. About Section
-7. Experience Section. <!-- FIXME: Warning: Extra attributes from the server: style at html app-index.js:31-->
-8. Tech Section
-9. Next: Works Section
+6. About section
+7. Experience section. <!-- FIXME: Warning: Extra attributes from the server: style at html app-index.js:31-->
+8. Tech section
+9. Works section
+10. Feedback section
