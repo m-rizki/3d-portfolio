@@ -10,7 +10,7 @@
 
 ## checkpoint
 
-[8:33:49](https://youtu.be/tllZWCQZ9_0?t=24294)
+[8:45:02](https://youtu.be/tllZWCQZ9_0?t=24294)
 
 ## Steps
 
@@ -36,3 +36,4 @@
 8. Tech section
 9. Works section
 10. Feedback section
+11. next: Contact section
