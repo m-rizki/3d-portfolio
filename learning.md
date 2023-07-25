@@ -7,6 +7,7 @@
 5. [Free 3d models](https://free3d.com/3d-models/)
 6. [sketchfab (best)](https://sketchfab.com/)
 7. [turbosquid](https://www.turbosquid.com/)
+8. [emailjs](https://www.emailjs.com/)
 
 ## checkpoint
 
@@ -36,4 +37,12 @@
 8. Tech section
 9. Works section
 10. Feedback section
-11. next: Contact section
+11. Contact section
+12. Setup emailjs
+    1. Sign Up - Sign in
+    2. nb: 200 email quota for free
+    3. add new service - gmail - get service ID - connect - create service
+    4. go to email templates - keep default configuration - save
+    5. go to email templates - choose 1 template - settings - copy template ID
+    6. go to email services - choose 1 service - copy service ID
+    7. go to your name - copy public key
