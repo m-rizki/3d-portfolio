@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 import { Tilt } from 'react-tilt'
 import Image from 'next/image'
 
-const TechCard = ({ index, icon }) => {
+const TechCard = ({ index, icon, title }) => {
   return (
     <Tilt className='w-28 h-28'>
       <motion.div
@@ -20,7 +20,7 @@ const TechCard = ({ index, icon }) => {
           options={{ max: 45, scale: 1, speed: 450 }}
           className='bg-white rounded-full py-5 flex justify-evenly items-center flex-col'
         >
-          <Image src={icon} className='w-16 h-16 object-contain' />
+          <Image src={icon} className='w-16 h-16 object-contain' title={title} />
         </div>
       </motion.div>
     </Tilt>
