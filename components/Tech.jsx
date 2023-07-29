@@ -6,6 +6,26 @@ import { technologies } from '@/constants'
 
 import { fadeIn, textVariant } from '@/utils/motion'
 import { motion } from 'framer-motion'
+import { Tilt } from 'react-tilt'
+import Image from 'next/image'
+
+const TechCard = ({ index, icon }) => {
+  return (
+    <Tilt className='w-28 h-28'>
+      <motion.div
+        variants={fadeIn('right', 'spring', index, 0.75)}
+        className='w-full green-pink-gradient p-[1px] rounded-full shadow-card select-none'
+      >
+        <div
+          options={{ max: 45, scale: 1, speed: 450 }}
+          className='bg-white rounded-full py-5 flex justify-evenly items-center flex-col'
+        >
+          <Image src={icon} className='w-16 h-16 object-contain' />
+        </div>
+      </motion.div>
+    </Tilt>
+  )
+}
 
 const Tech = () => {
   return (
@@ -27,13 +47,11 @@ const Tech = () => {
 
       <div className='flex flex-row flex-wrap justify-center gap-10 mt-20'>
         {technologies.map((technology) => (
-          <div
-            className='w-28 h-28'
+          <TechCard
+            icon={technology.icon}
             key={technology.name}
             title={technology.name}
-          >
-            <BallCanvas icon={technology.icon.src} />
-          </div>
+          />
         ))}
       </div>
     </>
