@@ -2,8 +2,8 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { navLinks } from '@/constants'
-import { logo, menu, close } from '@/public/assets/images'
+import { navLinks, socialMedia } from '@/constants'
+import { logo, menu, close, github, linkedin } from '@/public/assets/images'
 import Image from 'next/image'
 
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
         >
           <Image src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer md:block hidden'>
-            Muhamad Rizki &nbsp; <span className='lg:inline hidden'>| &nbsp; Software Engineer</span>
+            Muhamad Rizki
           </p>
         </Link>
 
@@ -42,6 +42,20 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <div className='flex gap-4 mt-2'>
+            <Image
+              src={github}
+              alt='github'
+              className='w-7 h-7 object-contain cursor-pointer'
+              onClick={() => window.open(socialMedia.githubLink, '_blank')}
+            />
+            <Image
+              src={linkedin}
+              alt='linkedin'
+              className='w-7 h-7 object-contain cursor-pointer'
+              onClick={() => window.open(socialMedia.linkedinLink, '_blank')}
+            />
+          </div>
         </ul>
 
         {/* Mobile Navigation */}
@@ -72,6 +86,22 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <div className='flex gap-4 mt-2'>
+                <Image
+                  src={github}
+                  alt='github'
+                  className='w-7 h-7 object-contain cursor-pointer'
+                  onClick={() => window.open(socialMedia.githubLink, '_blank')}
+                />
+                <Image
+                  src={linkedin}
+                  alt='linkedin'
+                  className='w-7 h-7 object-contain cursor-pointer'
+                  onClick={() =>
+                    window.open(socialMedia.linkedinLink, '_blank')
+                  }
+                />
+              </div>
             </ul>
           </div>
         </div>

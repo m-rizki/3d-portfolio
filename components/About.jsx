@@ -2,6 +2,7 @@
 
 import { services } from '@/constants'
 import { SectionWrapper } from '@/hoc'
+import { logo } from '@/public/assets/images'
 import { fadeIn, textVariant } from '@/utils/motion'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
@@ -32,7 +33,11 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className='mb-8'>
+        <Image src={logo} alt='logo' className='w-52 h-52 object-contain mx-auto' />
+      </motion.div>
+
+      <motion.div variants={fadeIn('', '', 0.1, 1)}>
         <p className='section-sub-text'>Introduction</p>
         <h2 className='section-head-text'>Overview.</h2>
       </motion.div>
@@ -41,11 +46,11 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like React and Next.Js. I'm a quick learner and
-        collaborate closely with clients to create efficient, scalable, and
-        user-friendly solutions that solve real-world problems. Let's work
-        together to bring your ideas to life!
+        I'm a software developer with experience in JavaScript, and
+        expertise in frameworks like React and Next.Js. I always strive to
+        create efficient, scalable, and effective solutions that solve
+        real-world problems. I firmly believe in continuous learning and
+        actively seek to enhance my skills in this field.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

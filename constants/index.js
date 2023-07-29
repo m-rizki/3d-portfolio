@@ -23,7 +23,17 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs,
+  archsoft,
+  unj,
+  shareprompt,
+  portfolio3d
 } from '@/public/assets/images'
+
+export const socialMedia = {
+  githubLink: 'https://github.com/m-rizki/',
+  linkedinLink: 'https://www.linkedin.com/in/rizki1998/'
+}
 
 export const navLinks = [
   {
@@ -42,21 +52,17 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Web Developer (Javascript)',
     icon: web,
   },
-  // {
-  //   title: 'React Native Developer',
-  //   icon: mobile,
-  // },
-  // {
-  //   title: 'Backend Developer',
-  //   icon: backend,
-  // },
-  // {
-  //   title: 'Content Creator',
-  //   icon: creator,
-  // },
+  {
+    title: 'React Developer',
+    icon: mobile,
+  },
+  {
+    title: 'Next Js Developer',
+    icon: backend,
+  },
 ]
 
 const technologies = [
@@ -73,98 +79,54 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Next Js',
+    icon: nextjs,
   },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
+    name: 'MongoDB',
+    icon: mongodb
+  },
+  {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
   },
   {
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
 ]
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'Python Developer (Student)',
+    company_name: 'State University of Jakarta',
+    icon: unj,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Graduation Date: Aug 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Using Python, NumPy, Matplotlib, SciPy, and Scikit-Image to develop algorithm for contour detection and experimenting with chronic wound dataset',
+      'Thesis : Detection of Chronic Wound Circumference using Active Contour (snake) and Active Contour with added Interpolation',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'React Developer',
+    company_name: 'Archsoft',
+    icon: archsoft,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Nov 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Developing and maintaining web applications using React.js, Next Js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.',
+      'Projects: riuconnect (insurance administration), AIA vitality live 2023',
     ],
   },
 ]
@@ -198,13 +160,17 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Share Prompt',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web-based platform that allows users to discover, create, and share creative AI prompts',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
+      },
+      {
+        name: 'nextjs',
+        color: 'text-white',
       },
       {
         name: 'mongodb',
@@ -215,50 +181,37 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: shareprompt,
+    source_code_link: 'https://github.com/m-rizki/share-prompt',
   },
   {
-    name: 'Job IT',
+    name: '3D Portfolio',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Personal web portfolio',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
         name: 'nextjs',
-        color: 'blue-text-gradient',
+        color: 'text-white',
       },
       {
-        name: 'supabase',
+        name: 'framermotion',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'threejs',
+        color: 'text-white',
+      },
+      {
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: portfolio3d,
+    source_code_link: 'https://github.com/m-rizki/3d-portfolio',
   },
 ]
 

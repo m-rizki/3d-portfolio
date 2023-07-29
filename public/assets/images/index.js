@@ -4,6 +4,7 @@ import creator from './creator.png'
 import mobile from './mobile.png'
 import web from './web.png'
 import github from './github.png'
+import linkedin from './linkedIn-logo.png'
 import menu from './menu.svg'
 import close from './close.svg'
 
@@ -20,11 +21,17 @@ import redux from './tech/redux.png'
 import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
+import nextjs from './tech/next.svg'
 
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
 import starbucks from './company/starbucks.png'
 import tesla from './company/tesla.png'
+import unj from './company/logo-unj.png'
+import archsoft from './company/archsoft.png'
+
+import shareprompt from './projects/landing-page-share-prompt.png'
+import portfolio3d from './projects/3d-portfolio.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -37,6 +44,7 @@ export {
   mobile,
   web,
   github,
+  linkedin,
   menu,
   close,
   css,
@@ -59,4 +67,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  nextjs,
+  unj,
+  archsoft,
+  shareprompt,
+  portfolio3d
 }
