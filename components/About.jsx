@@ -34,7 +34,13 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()} className='mb-8'>
-        <Image src={logo} alt='logo' className='w-52 h-52 object-contain mx-auto' />
+        <Image
+          src='/assets/images/profile/profile.jpg'
+          alt='logo'
+          width={208}
+          height={208}
+          className='object-contain mx-auto rounded-full'
+        />
       </motion.div>
 
       <motion.div variants={fadeIn('', '', 0.1, 1)}>
@@ -46,11 +52,11 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a software developer with experience in JavaScript, and
-        expertise in frameworks like React and Next.Js. I always strive to
-        create efficient, scalable, and effective solutions that solve
-        real-world problems. I firmly believe in continuous learning and
-        actively seek to enhance my skills in this field.
+        I'm a software developer with experience in JavaScript, and expertise in
+        frameworks like React and Next.Js. I always strive to create efficient,
+        scalable, and effective solutions that solve real-world problems. I
+        firmly believe in continuous learning and actively seek to enhance my
+        skills in this field.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
