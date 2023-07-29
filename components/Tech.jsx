@@ -20,7 +20,7 @@ const TechCard = ({ index, icon, title }) => {
           options={{ max: 45, scale: 1, speed: 450 }}
           className='bg-white rounded-full py-5 flex justify-evenly items-center flex-col'
         >
-          <Image src={icon} className='w-16 h-16 object-contain' title={title} />
+          <Image src={icon} className='w-16 h-16 object-contain' title={title} alt={title} />
         </div>
       </motion.div>
     </Tilt>
