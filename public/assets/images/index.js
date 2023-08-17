@@ -32,6 +32,7 @@ import archsoft from './company/archsoft.png'
 
 import shareprompt from './projects/landing-page-share-prompt.png'
 import portfolio3d from './projects/3d-portfolio.png'
+import carhub from './projects/car-hub.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -71,5 +72,6 @@ export {
   unj,
   archsoft,
   shareprompt,
-  portfolio3d
+  portfolio3d,
+  carhub
 }

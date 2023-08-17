@@ -27,7 +27,8 @@ import {
   archsoft,
   unj,
   shareprompt,
-  portfolio3d
+  portfolio3d,
+  carhub
 } from '@/public/assets/images'
 
 export const socialMedia = {
@@ -220,6 +221,31 @@ const projects = [
     ],
     image: portfolio3d,
     source_code_link: 'https://github.com/m-rizki/3d-portfolio',
+  },
+  {
+    name: 'Car Showcase (CarHub)',
+    description:
+      'Web-based platform that allows users to discover cars',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nextjs',
+        color: 'text-white',
+      },
+      {
+        name: 'tailwind',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'headlesui',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: carhub,
+    source_code_link: 'https://github.com/m-rizki/car-showcase',
   },
 ]
 
