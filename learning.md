@@ -9,10 +9,6 @@
 7. [turbosquid](https://www.turbosquid.com/)
 8. [emailjs](https://www.emailjs.com/)
 
-## checkpoint
-
-[8:45:02](https://youtu.be/tllZWCQZ9_0?t=24294)
-
 ## Steps
 
 1. Install (see in readme.md for setup installation)

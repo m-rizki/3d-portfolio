@@ -29,6 +29,7 @@ import starbucks from './company/starbucks.png'
 import tesla from './company/tesla.png'
 import unj from './company/logo-unj.png'
 import archsoft from './company/archsoft.png'
+import indore from './company/indore-logo.svg'
 
 import shareprompt from './projects/landing-page-share-prompt.png'
 import portfolio3d from './projects/3d-portfolio.png'
@@ -71,6 +72,7 @@ export {
   nextjs,
   unj,
   archsoft,
+  indore,
   shareprompt,
   portfolio3d,
   carhub

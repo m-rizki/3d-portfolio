@@ -25,6 +25,7 @@ import {
   threejs,
   nextjs,
   archsoft,
+  indore,
   unj,
   shareprompt,
   portfolio3d,
@@ -53,7 +54,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer (Javascript)',
+    title: 'Web Developer',
     icon: web,
   },
   {
@@ -99,18 +100,18 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'MongoDB',
-    icon: mongodb
-  },
+  // {
+  //   name: 'MongoDB',
+  //   icon: mongodb
+  // },
   {
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
 ]
 
 const experiences = [
@@ -126,7 +127,7 @@ const experiences = [
     ],
   },
   {
-    title: 'React Developer',
+    title: 'Front End Dev - React Js',
     company_name: 'Archsoft',
     icon: archsoft,
     iconBg: '#E6DEDD',
@@ -135,7 +136,17 @@ const experiences = [
       'Developing and maintaining web applications using React.js, Next Js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Participating in code reviews and providing constructive feedback to other developers.',
-      'Projects: riuconnect (insurance administration), AIA vitality live 2023',
+    ],
+  },
+  {
+    title: 'Front End Dev - React Js',
+    company_name: 'PT Reasuransi Indonesia Utama (Persero) As Vendor',
+    icon: indore,
+    iconBg: '#E6DEDD',
+    date: 'December 2022 - Present',
+    points: [
+      'Developing and maintaining Insurance administration website applications using React.js, Next Js and other related technologies.',
+      'Collaborating with cross-functional teams including project administrator and IT staff to create high-quality products.',
     ],
   },
 ]
