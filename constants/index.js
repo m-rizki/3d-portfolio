@@ -137,19 +137,20 @@ const experiences = [
       'Developing and maintaining web applications using React.js, Next Js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Participating in code reviews and providing constructive feedback to other developers.',
+      'Projects: Riuconnect insurance administration, PT Reasuransi Indonesia Utama as front end developer (React Js)',
     ],
   },
-  {
-    title: 'Front End Dev - React Js',
-    company_name: 'PT Reasuransi Indonesia Utama (as vendor)',
-    icon: indore,
-    iconBg: '#E6DEDD',
-    date: 'December 2022 - Present',
-    points: [
-      'Developing and maintaining Insurance administration website applications using React.js, Next Js and other related technologies.',
-      'Collaborating with cross-functional teams including project administrator and IT staff to create high-quality products.',
-    ],
-  },
+  // {
+  //   title: 'Front End Dev - React Js',
+  //   company_name: 'PT Reasuransi Indonesia Utama (as vendor)',
+  //   icon: indore,
+  //   iconBg: '#E6DEDD',
+  //   date: 'December 2022 - Present',
+  //   points: [
+  //     'Developing and maintaining Insurance administration website applications using React.js, Next Js and other related technologies.',
+  //     'Collaborating with cross-functional teams including project administrator and IT staff to create high-quality products.',
+  //   ],
+  // },
 ]
 
 const testimonials = [
