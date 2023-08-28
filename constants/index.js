@@ -141,7 +141,7 @@ const experiences = [
   },
   {
     title: 'Front End Dev - React Js',
-    company_name: 'PT Reasuransi Indonesia Utama (Persero) As Vendor',
+    company_name: 'PT Reasuransi Indonesia Utama (as vendor)',
     icon: indore,
     iconBg: '#E6DEDD',
     date: 'December 2022 - Present',
