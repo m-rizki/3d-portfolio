@@ -15,6 +15,9 @@ import {
   git,
   figma,
   docker,
+  rust,
+  postgresql,
+  python,
   meta,
   starbucks,
   tesla,
@@ -101,18 +104,34 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  // {
-  //   name: 'MongoDB',
-  //   icon: mongodb
-  // },
+
   {
     name: 'Node JS',
     icon: nodejs,
   },
-  // {
-  //   name: 'docker',
-  //   icon: docker,
-  // },
+]
+
+const otherTechnologies = [
+  {
+    name: 'mongodb',
+    icon: mongodb,
+  },
+  {
+    name: 'docker',
+    icon: docker,
+  },
+  {
+    name: 'postgresql',
+    icon: postgresql,
+  },
+  {
+    name: 'rust',
+    icon: rust,
+  },
+  {
+    name: 'python',
+    icon: python,
+  },
 ]
 
 const experiences = [
@@ -313,4 +332,11 @@ const projects = [
   },
 ]
 
-export { services, technologies, experiences, testimonials, projects }
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  otherTechnologies,
+}

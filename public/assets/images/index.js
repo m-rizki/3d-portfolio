@@ -22,6 +22,9 @@ import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
 import nextjs from './tech/next.svg'
+import rust from './tech/rust-logo-blk.svg'
+import postgresql from './tech/elephant.png'
+import python from './tech/Python-logo-notext.svg'
 
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
@@ -78,4 +81,7 @@ export {
   portfolio3d,
   carhub,
   compai,
+  rust,
+  postgresql,
+  python,
 }
