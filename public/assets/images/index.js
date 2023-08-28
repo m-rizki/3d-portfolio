@@ -34,6 +34,7 @@ import indore from './company/indore-logo.svg'
 import shareprompt from './projects/landing-page-share-prompt.png'
 import portfolio3d from './projects/3d-portfolio.png'
 import carhub from './projects/car-hub.png'
+import compai from './projects/compai_dashboard.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -75,5 +76,6 @@ export {
   indore,
   shareprompt,
   portfolio3d,
-  carhub
+  carhub,
+  compai,
 }

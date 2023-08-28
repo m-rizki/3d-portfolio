@@ -29,12 +29,13 @@ import {
   unj,
   shareprompt,
   portfolio3d,
-  carhub
+  carhub,
+  compai,
 } from '@/public/assets/images'
 
 export const socialMedia = {
   githubLink: 'https://github.com/m-rizki/',
-  linkedinLink: 'https://www.linkedin.com/in/rizki1998/'
+  linkedinLink: 'https://www.linkedin.com/in/rizki1998/',
 }
 
 export const navLinks = [
@@ -180,9 +181,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Share Prompt',
+    name: 'compai',
     description:
-      'Web-based platform that allows users to discover, create, and share creative AI prompts',
+      'Web-based SaaS AI Companion Platform that allows users to discover, crud and chat with AI Companion Models',
     tags: [
       {
         name: 'react',
@@ -193,21 +194,48 @@ const projects = [
         color: 'text-white',
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: 'typescript',
+        color: 'blue-text-gradient',
       },
       {
         name: 'tailwind',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'shadcn-ui',
+        color: 'text-white',
+      },
+      {
+        name: 'zod',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'react-hook-form',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'zustand',
+        color: 'text-white',
+      },
+      {
+        name: 'clerk',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'prisma',
+        color: 'text-white',
+      },
+      {
+        name: 'postgresql',
+        color: 'blue-text-gradient',
+      },
     ],
-    image: shareprompt,
-    source_code_link: 'https://github.com/m-rizki/share-prompt',
+    image: compai,
+    source_code_link: 'https://github.com/m-rizki/compai',
   },
   {
     name: '3D Portfolio',
-    description:
-      'Personal web portfolio',
+    description: 'Personal web portfolio',
     tags: [
       {
         name: 'react',
@@ -234,9 +262,33 @@ const projects = [
     source_code_link: 'https://github.com/m-rizki/3d-portfolio',
   },
   {
-    name: 'Car Showcase (CarHub)',
+    name: 'Share Prompt',
     description:
-      'Web-based platform that allows users to discover cars',
+      'Web-based platform that allows users to discover, create, and share creative AI prompts',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nextjs',
+        color: 'text-white',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: shareprompt,
+    source_code_link: 'https://github.com/m-rizki/share-prompt',
+  },
+  {
+    name: 'Car Showcase (CarHub)',
+    description: 'Web-based platform that allows users to discover cars',
     tags: [
       {
         name: 'react',
