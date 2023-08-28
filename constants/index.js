@@ -183,7 +183,7 @@ const projects = [
   {
     name: 'compai',
     description:
-      'Web-based SaaS AI Companion Platform that allows users to discover, CRUD companion and chat with AI Companion Models',
+      'SaaS AI Companion Platform that allows users to discover, CRUD companion and chat with AI Companion Models',
     tags: [
       {
         name: 'react',
