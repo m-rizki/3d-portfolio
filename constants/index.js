@@ -135,9 +135,9 @@ const experiences = [
     date: 'Nov 2022 - Present',
     points: [
       'Developing and maintaining web applications using React.js, Next Js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Collaborating with cross-functional teams including designers, and other developers to create high-quality products.',
       'Participating in code reviews and providing constructive feedback to other developers.',
-      'Projects: Riuconnect insurance administration, PT Reasuransi Indonesia Utama as front end developer (React Js)',
+      'Projects: Riuconnect insurance administration, PT Reasuransi Indonesia Utama as front end developer (React Js), AIA Vitality Live (Event Registration website)',
     ],
   },
   // {
