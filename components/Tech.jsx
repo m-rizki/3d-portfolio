@@ -39,7 +39,7 @@ const Tech = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        These technologies form the foundation of my web development projects,
+        These technologies form the foundation of my projects,
         enabling me to deliver high-quality, modern, and user-centric
         applications.
       </motion.p>

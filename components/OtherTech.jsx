@@ -39,7 +39,7 @@ const OtherTech = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm continuously exploring and learning new tools to stay
-        up-to-date with the ever-evolving web development landscape.
+        up-to-date with the ever-evolving technologies.
       </motion.p>
 
       <div className='flex flex-row flex-wrap justify-center gap-10 mt-20'>

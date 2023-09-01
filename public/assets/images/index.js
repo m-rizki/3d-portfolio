@@ -25,6 +25,7 @@ import nextjs from './tech/next.svg'
 import rust from './tech/rust-logo-blk.svg'
 import postgresql from './tech/elephant.png'
 import python from './tech/Python-logo-notext.svg'
+import csharp from './tech/C_Sharp_wordmark.svg'
 
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
@@ -84,4 +85,5 @@ export {
   rust,
   postgresql,
   python,
+  csharp,
 }

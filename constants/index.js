@@ -18,6 +18,7 @@ import {
   rust,
   postgresql,
   python,
+  csharp,
   meta,
   starbucks,
   tesla,
@@ -125,12 +126,16 @@ const otherTechnologies = [
     icon: postgresql,
   },
   {
-    name: 'rust',
-    icon: rust,
-  },
-  {
     name: 'python',
     icon: python,
+  },
+  {
+    name: 'c#',
+    icon: csharp,
+  },
+  {
+    name: 'rust',
+    icon: rust,
   },
 ]
 
@@ -221,26 +226,26 @@ const projects = [
         name: 'tailwind',
         color: 'pink-text-gradient',
       },
-      {
-        name: 'shadcn-ui',
-        color: 'text-white',
-      },
-      {
-        name: 'zod',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'react-hook-form',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'zustand',
-        color: 'text-white',
-      },
-      {
-        name: 'clerk',
-        color: 'blue-text-gradient',
-      },
+      // {
+      //   name: 'shadcn-ui',
+      //   color: 'text-white',
+      // },
+      // {
+      //   name: 'zod',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'react-hook-form',
+      //   color: 'pink-text-gradient',
+      // },
+      // {
+      //   name: 'zustand',
+      //   color: 'text-white',
+      // },
+      // {
+      //   name: 'clerk',
+      //   color: 'blue-text-gradient',
+      // },
       {
         name: 'prisma',
         color: 'text-white',
