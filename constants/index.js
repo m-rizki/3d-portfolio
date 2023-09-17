@@ -15,6 +15,8 @@ import {
   git,
   figma,
   docker,
+  java,
+  vue,
   rust,
   postgresql,
   python,
@@ -120,6 +122,14 @@ const otherTechnologies = [
   {
     name: 'docker',
     icon: docker,
+  },
+  {
+    name: 'vue',
+    icon: vue,
+  },
+  {
+    name: 'java',
+    icon: java,
   },
   {
     name: 'postgresql',

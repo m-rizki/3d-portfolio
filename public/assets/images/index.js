@@ -26,6 +26,8 @@ import rust from './tech/rust-logo-blk.svg'
 import postgresql from './tech/elephant.png'
 import python from './tech/Python-logo-notext.svg'
 import csharp from './tech/C_Sharp_wordmark.svg'
+import java from './tech/java.png'
+import vue from './tech/vue.png'
 
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
@@ -86,4 +88,6 @@ export {
   postgresql,
   python,
   csharp,
+  java,
+  vue
 }
