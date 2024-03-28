@@ -35,6 +35,7 @@ import {
   unj,
   shareprompt,
   portfolio3d,
+  vitePhoneBook,
   carhub,
   compai,
 } from "@/public/assets/images";
@@ -268,6 +269,39 @@ const projects = [
   //   image: compai,
   //   source_code_link: 'https://github.com/m-rizki/compai',
   // },
+  {
+    name: "Vite Phone Book",
+    description:
+      "A project where users can easily view, search, add to favorites, create, edit, and delete contacts.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Apollo GraphQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React Router",
+        color: "text-white",
+      },
+      {
+        name: "EmotionCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vitePhoneBook,
+    source_code_link: "https://github.com/m-rizki/vite-phone-book",
+  },
   {
     name: "3D Portfolio",
     description: "Personal web portfolio",
